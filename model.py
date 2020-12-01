@@ -1,3 +1,10 @@
+__author__ = 'Akshit Agarwal'
+__email__ = 'akshit@email.arizona.edu'
+__date__ = '2020-11-23'
+__dataset__ = 'http://archive.ics.uci.edu/ml/datasets/Iris/'
+__connect__ = 'https://www.linkedin.com/in/akshit-agarwal93/'
+
+
 from pickle import dump
 
 from pandas import DataFrame
