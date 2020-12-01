@@ -6,6 +6,8 @@ Heroku is a container-based cloud Platform as a Service (PaaS). Developers use H
 In this example, we have used [Iris Dataset](http://archive.ics.uci.edu/ml/datasets/Iris/), which is a very popular ML toy problem.
 The goal here is to understand to the end-to-end deployment process of a Machine Learning project. The final web application is hosted at this [Heroku](https://predict-iris-flower-species.herokuapp.com/docs) link
 
+![alt text](<classifier.jpg>)
+
 ## Description of the Dataset
 The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. 
 Predicted attribute: class of iris plant. In this project, the dataset is sourced from scikit-learn library using `from sklearn.datasets import load_iris`. This dataset can also be found at UCI Machine Repository website here: http://archive.ics.uci.edu/ml/datasets/Iris/
