@@ -21,6 +21,9 @@ def predict_flower(data: Iris):
     petal_length = data['petal_length']
     petal_width = data['petal_width']
     # print(classifier.predict([[variance,skewness,curtosis,entropy]]))
+    ls = [[sepal_length, sepal_width, petal_length, petal_width]]
+    print(type(ls))
+
     prediction = classifier.predict([[sepal_length, sepal_width, petal_length, petal_width]])
     if (prediction[0] == 0):
         prediction = "Iris Veriscolor (0)"
